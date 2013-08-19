@@ -6,6 +6,7 @@ the ones from
 [learnXinYminutes](https://github.com/adambard/learnxinyminutes-docs).
 
 The plugin adds a single command:  ```:ToggleCheat```.  This will open or close
-a vertical split containing the markdown cheat file for the current file type.
+a vertical split containing the read-only markdown cheat file for the current 
+file type.
 
 If a cheat file is not available, a message will be displayed.
