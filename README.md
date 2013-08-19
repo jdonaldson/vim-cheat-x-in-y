@@ -1,5 +1,7 @@
 # Vim-cheat
 
+[screenshot](http://i.imgur.com/1ZAin3j.png)
+
 This plugin lets you quickly open up a cheat sheet for a given language in a
 vertical split.  I didn't write the cheat sheets, I cheated as well and used 
 the ones from
