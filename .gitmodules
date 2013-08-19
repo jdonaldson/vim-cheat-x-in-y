@@ -1,0 +1,3 @@
+[submodule "learnxinyminutes"]
+	path = learnxinyminutes
+	url = https://github.com/adambard/learnxinyminutes-docs.git

@@ -1,5 +1,5 @@
 function! cheat#ToggleCheatSheet()
-    let pathname = 'cheat/'.&ft
+    let pathname = 'learnxinyminutes/'.&ft.'.html.markdown'
     let paths = split(globpath(&rtp,pathname),'\n')
     let path = ''
 
