@@ -3,8 +3,8 @@
 ![screenshot](http://i.imgur.com/1ZAin3j.png)
 
 This plugin lets you quickly open up a cheat sheet for a given language in a
-vertical split.  I didn't write the cheat sheets, I cheated as well and used 
-the ones from
+vertical split on the right.  I didn't write the cheat sheets, I cheated as 
+well and used the ones from
 [learnXinYminutes](https://github.com/adambard/learnxinyminutes-docs).
 
 The plugin adds a single command:  ```:ToggleCheat```.  This will open or close
