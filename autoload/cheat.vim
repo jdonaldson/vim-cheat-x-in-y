@@ -1,8 +1,12 @@
 function! cheat#ToggleCheatSheet()
-    let pathname = 'learnxinyminutes/'.&ft.'.html.markdown'
+    let file_type = &ft
+    if  has_key(g:cheat_ft_map, file_type)
+        let file_type = g:cheat_ft_map[file_type]
+    endif
+    let pathname = 'learnxinyminutes/'.file_type.'.html.markdown'
     let paths = split(globpath(&rtp,pathname),'\n')
 
-    let altpathname = 'cheat/'.&ft.'.md'
+    let altpathname = 'cheat/'.file_type.'.md'
     let altpaths = split(globpath(&rtp,altpathname),'\n')
 
     let path = ''
