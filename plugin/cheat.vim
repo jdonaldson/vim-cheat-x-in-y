@@ -1,5 +1,5 @@
 " Loads a 'cheat file' based on the filetype currently being edited.
-if exists("g:loaded_cheat")
+if exists("g:loaded_xinycheat")
     finish
 end
 let g:loaded_xinycheat = 1
