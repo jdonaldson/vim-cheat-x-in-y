@@ -6,8 +6,9 @@ let g:loaded_xinycheat = 1
 
 let g:cheat_ft_map = {
             \ "objc": "objective-c",
-            \ "lisp": "elisp",
-            \ "cs" : "csharp"
+            \ "lisp": "common-lisp",
+            \ "cs" : "csharp",
+            \ "sh" : "bash",
             \}
 
 command ToggleCheat call cheat#ToggleCheatSheet()
