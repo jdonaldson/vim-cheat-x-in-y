@@ -9,6 +9,7 @@ let g:cheat_ft_map = {
             \ "lisp": "common-lisp",
             \ "cs" : "csharp",
             \ "sh" : "bash",
+            \ "cpp" : "c++",
             \}
 
 command ToggleCheat call cheat#ToggleCheatSheet()
